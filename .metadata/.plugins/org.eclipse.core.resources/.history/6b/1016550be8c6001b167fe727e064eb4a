@@ -1,6 +1,0 @@
-package com.hbsols.dao;
-
-public interface ICalculationDao {
-
-	public String findNameById(Integer id);
-}

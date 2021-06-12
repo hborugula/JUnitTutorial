@@ -1,7 +1,0 @@
-INDEX VERSION 1.131+D:\Hb Solutions\sts_dev\junit_dev\.metadata\.plugins\org.eclipse.jdt.core
-3496757083.index
-673151442.index
-3191320383.index
-1298167423.index
-545617308.index
-1852664229.index
