@@ -24,6 +24,8 @@ public class ContactServiceTest {
 			service.setDao(daoProxy);
 
 		String name =service.getNameById(101);
+		
+		
 		assertNotNull(name);
 	}
 }
