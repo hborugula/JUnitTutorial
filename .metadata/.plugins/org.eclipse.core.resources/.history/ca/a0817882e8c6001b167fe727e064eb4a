@@ -1,0 +1,10 @@
+package com.hbsols.service;
+
+public class ContactServiceImpl implements IContactService {
+
+	public String getNameById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
