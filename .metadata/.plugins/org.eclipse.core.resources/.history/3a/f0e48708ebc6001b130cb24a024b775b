@@ -1,0 +1,26 @@
+package com.hbsols.test;
+
+import static org.junit.Assert.assertNotNull;
+
+import org.easymock.EasyMock;
+import org.junit.Test;
+
+import com.hbsols.dao.IContactDao;
+import com.hbsols.service.ContactServiceImpl;
+import com.hbsols.service.IContactService;
+
+public class ContactServiceTest {
+
+	@Test
+	public void testGetNameById_01() {
+		IContactDao daoProxy = EasyMock.createMock(IContactDao.class);
+		EasyMock.expect(daoProxy.findNameById(101)).andReturn("Hareesh");
+		EasyMock.replay(daoProxy);
+		ContactServiceImpl service = new ContactServiceImpl();
+		//IContactService service = new ContactServiceImpl();
+			service.setDao(daoProxy);
+
+		String name =service.getNameById(101);
+		assertNotNull(name);
+	}
+}

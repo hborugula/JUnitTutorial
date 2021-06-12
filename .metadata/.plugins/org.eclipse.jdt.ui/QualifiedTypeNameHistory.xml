@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.hbsols.service.IContactService"/>
+    <fullyQualifiedTypeName name="org.easymock.EasyMock"/>
+    <fullyQualifiedTypeName name="com.hbsols.dao.IContactDao"/>
+    <fullyQualifiedTypeName name="com.hbsols.service.ContactServiceImpl"/>
+</qualifiedTypeNameHistroy>
